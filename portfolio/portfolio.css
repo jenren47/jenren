@@ -9,37 +9,45 @@
     left: 78px;
     width: 1765px;
     height: 900px;
-    background: transparent url('img/사각형 1.png') 0% 0% no-repeat padding-box;
     border: 2px solid #000000;
-    opacity: 1;
+
+
 }
 
 .box2{
 top: 540px;
-left: 78px;
+left: 0px;
 width: 1031px;
 height: 167px;
 background-color: #AAAAAA;
 border: 2px solid #000000;
-opacity: 1;
+position: relative;
+top: -450px;
+
+
+
 }
 
 .box3{
-    top: 90px;
-left: 1106px;
+top: 90px;
+left: 1029px;
 width: 737px;
 height: 900px;
 background-color: #535151;
 border: 1px solid #000000;
-opacity: 1;
+position: relative;
+top: -1075px;
+z-index: 1;
 }
 
 .text1{
 top: 186px;
-left: 134px;
+left: 56.5px;
 width: 603px;
 height: 115px;
 opacity: 1;
+position: relative;
+top: -1894px;
 }
 
 .text2{
@@ -54,5 +62,27 @@ opacity: 1;
     left: 139px;
     width: 240px;
     height: 84px;
-    
+
+}
+.txt4{
+    top: 334px;
+    left: 138px;
+    width: 510px;
+    height: 103px;
+
+}
+
+.text5{
+top: 805px;
+left: 135px;
+width: 114px;
+height: 132px;
+
+}
+.text6{
+    top: 871px;
+left: 1166px;
+width: 618px;
+height: 69px;
+
 }
