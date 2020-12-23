@@ -1,0 +1,51 @@
+
+.line > img{
+    width:404px;
+    height: 505px;
+} 
+
+.box1{
+    top: 90px;
+    left: 78px;
+    width: 1765px;
+    height: 900px;
+    background: transparent url('img/사각형 1.png') 0% 0% no-repeat padding-box;
+    border: 2px solid #000000;
+    opacity: 1;
+}
+
+.box2{
+top: 540px;
+left: 78px;
+width: 1031px;
+height: 167px;
+background-color: #AAAAAA;
+border: 2px solid #000000;
+opacity: 1;
+}
+
+.box3{
+    top: 90px;
+left: 1106px;
+width: 737px;
+height: 900px;
+background-color: #535151;
+border: 1px solid #000000;
+opacity: 1;
+}
+
+.text1{
+top: 186px;
+left: 134px;
+width: 603px;
+height: 115px;
+opacity: 1;
+}
+
+.text2{
+    top: 186px;
+    left: 134px;
+    width: 603px;
+    height: 115px;
+    opacity: 1;
+    }
