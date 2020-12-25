@@ -35,6 +35,7 @@
 
 
 .click {
+
     top: 540px;
     left: 70px;
     width: 1031px;
@@ -53,26 +54,17 @@
     button:hover{
     cursor: pointer;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
-    
     }
-    .abo {
-        top: 540px;
-        left: 70px;
-        width: 1031px;
-        height: 167px;
+
+ .abo {
+        top: 90px;
+        left: 1106px;
+        width: 737px;
+        height: 180px;
         position: absolute;
         border:none;
         transition:0.3s;
-        
         }
-        .des {
-            top: 540px;
-            left: 70px;
-            width: 1031px;
-            height: 167px;
-            position: absolute;
-            border:none;
-            transition:0.3s;
-            
-            }
-        
+
+
+    
