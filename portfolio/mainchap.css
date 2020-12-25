@@ -37,8 +37,8 @@
 .click {
 
     top: 540px;
-    left: 70px;
-    width: 1031px;
+    left: 78px;
+    width: 1030px;
     height: 167px;
     position: absolute;
     border:none;
@@ -68,3 +68,52 @@
 
 
     
+ .des {
+    top: 270px;
+    left: 1106px;
+    width: 737px;
+    height: 180px;
+    position: absolute;
+    border:none;
+    transition:0.3s;
+    }
+
+
+
+    .bra {
+        top: 450px;
+        left: 1106px;
+        width: 737px;
+        height: 180px;
+        position: absolute;
+        border:none;
+        transition:0.3s;
+        }
+
+
+    
+ .vid {
+    top: 630px;
+    left: 1106px;
+    width: 737px;
+    height: 180px;
+    position: absolute;
+    border:none;
+    transition:0.3s;
+    }
+
+
+
+    .con {
+        top: 810px;
+        left: 1106px;
+        width: 737px;
+        height: 180px;
+        
+        position: absolute;
+        border:none;
+        transition:0.3s;
+        }
+
+
+   
