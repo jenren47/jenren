@@ -37,6 +37,7 @@
 			transition:0.5s ease-in-out;
 		}
 		.openmenu {
+            width: 7.5%;
             font-size: 35px;
             font-family: 'Arita-buri-SemiBold';
 			cursor:pointer;
@@ -152,7 +153,7 @@
         }
 
         .text4{
-            text-decoration: underline; 
+           
             top: 472px;
             left: 640px;
             width: 637px;
