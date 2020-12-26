@@ -63,7 +63,18 @@
         height: 180px;
         position: absolute;
         border:none;
+        box-shadow: 0 4px 16px rgba(63, 63, 63, 0.3);
         transition:0.3s;
+        
+        }
+        /* 포커스 됐을 때 */
+        button:focus{
+        outline: 0;
+        }
+        /* 마우스 오버 했을 때 */
+        button:hover{
+        cursor: pointer;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
         }
 
 
@@ -75,7 +86,18 @@
     height: 180px;
     position: absolute;
     border:none;
+    box-shadow: 0 4px 16px rgba(63, 63, 63, 0.3);
     transition:0.3s;
+    
+    }
+    /* 포커스 됐을 때 */
+    button:focus{
+    outline: 0;
+    }
+    /* 마우스 오버 했을 때 */
+    button:hover{
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
     }
 
 
@@ -87,7 +109,18 @@
         height: 180px;
         position: absolute;
         border:none;
+        box-shadow: 0 4px 16px rgba(63, 63, 63, 0.3);
         transition:0.3s;
+        
+        }
+        /* 포커스 됐을 때 */
+        button:focus{
+        outline: 0;
+        }
+        /* 마우스 오버 했을 때 */
+        button:hover{
+        cursor: pointer;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);    
         }
 
 
@@ -99,7 +132,18 @@
     height: 180px;
     position: absolute;
     border:none;
+    box-shadow: 0 4px 16px rgba(63, 63, 63, 0.3);
     transition:0.3s;
+    
+    }
+    /* 포커스 됐을 때 */
+    button:focus{
+    outline: 0;
+    }
+    /* 마우스 오버 했을 때 */
+    button:hover{
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
     }
 
 
@@ -112,7 +156,18 @@
         
         position: absolute;
         border:none;
-        transition:0.3s;
+        box-shadow: 0 4px 16px rgba(63, 63, 63, 0.3);
+    transition:0.3s;
+    
+    }
+    /* 포커스 됐을 때 */
+    button:focus{
+    outline: 0;
+    }
+    /* 마우스 오버 했을 때 */
+    button:hover{
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6); transition:0.3s;
         }
 
 
