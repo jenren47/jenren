@@ -1,62 +1,43 @@
-/* 사이드바 스타일 */
-		.sidenav {
-			height:100%;
-			width: 0;
-			position: fixed;
-			z-index:1;
-			top: 0;
-			left: 0;
-			background-color: rgb(61, 70, 97);
-			overflow-x: hidden;
-			transition:0.5s ease-in-out;
-			padding-top: 60px;
-		}
-		.sidenav a {
-			padding: 30px 0px 30px 32px;
-            text-decoration: none;
-            font-family: 'Arita-buri-SemiBold';
-			font-size: 30px;
-			color: rgb(197, 194, 194);
-			display: block;
-			transition: 0.2s ease-in-out;
-		}
-		.sidenav a:hover, .offcanvas a:focus {
-            color: rgb(205, 215, 233);
+/* 메뉴바 */
 
-		}
-		.closebtn {
-        
-			position: absolute;
-			top: 0;
-            right: 25px;
-			font-size: 36px !important;
-			margin-left: 50px;
-		}
-		.openmenu:hover {
-			color:rgb(189, 190, 190);
-			transition:0.5s ease-in-out;
-		}
-		.openmenu {
-            width: 7.5%;
-            font-size: 35px;
-            font-family: 'Arita-buri-SemiBold';
-			cursor:pointer;
-            transition:0.5s ease-in-out;
-            background-color:#dfdddb;
-            border: 4px groove #e4e4eb;
-            color:#696561;
-            margin: 30px;
-            box-shadow: 0px 10px 10px #70707029;
-            padding: 10px;
-            top: 66px;
-            left: 1630px;
-            position: fixed;			
-		}
-		.openmenu > i {
-            font-size: 70px;
-            
-        
-		}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    border:1px solid rgba(0,0,0,0.04);
+    background-color: #cacaca;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+.logo img{
+    height: 65px;
+}
+nav .menu{
+    display: flex;
+}
+nav .menu li a{
+    font-family: 'Cafe24Oneprettynight';
+    height: 40px;
+    line-height: 43px;
+    margin: 0px;
+    padding: 0px 32px;
+    display: flex;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color:#646363;
+    letter-spacing: 1px;
+}
+/* 끝 */
 		#main {
 			transition:0.5s ease-in-out;
 		}
