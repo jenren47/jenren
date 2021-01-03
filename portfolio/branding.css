@@ -1,0 +1,102 @@
+/* 메뉴바 */
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    border:1px solid rgba(0,0,0,0.04);
+    background-color: #524b4b;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+.logo img{
+    height: 65px;
+}
+nav .menu{
+    display: flex;
+}
+nav .menu li a{
+    font-family: 'Cafe24Oneprettynight';
+    height: 40px;
+    line-height: 43px;
+    margin: 0px;
+    padding: 0px 32px;
+    display: flex;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color:#fcf7f7;
+    letter-spacing: 1px;
+}
+/* 끝 */
+
+
+/* 1*/
+
+.nn{
+    top: 192px;
+    left: 536px;
+    width: 848px;
+    height: 108px;
+    position:absolute;
+}
+
+.m1{
+    top: 430px;
+    left: 287px;
+    width: 674px;
+    height: 379px;
+    position:absolute;
+}
+.scroll{
+    top: 430px;
+    left: 959px;
+    width: 674px;
+    height: 786px;    
+    color: #292727;
+    border: 2px solid #000000;
+    line-height: 33px;
+    font-size: 20px;
+    font-family: 'NanumSquare';
+    letter-spacing :1px; 
+    padding:10px;
+     overflow:auto;
+     position:absolute;
+}
+/* 1*/
+/* 2*/
+
+
+
+.m2{
+    top: 1240px;
+    left: 959px;
+    width: 674px;
+    height: 379px;
+    position:absolute;
+}
+.scroll2{
+    top: 808px;
+    left: 287px;
+    width: 649px;
+    height: 786px;
+    border: 2px solid #000000;
+    line-height: 33px;
+    font-size: 20px;
+    font-family: 'NanumSquare';
+    letter-spacing :1px; 
+    padding:10px;
+    color: #292727;
+     overflow:auto;
+     position:absolute;
+}
+/* 2*/

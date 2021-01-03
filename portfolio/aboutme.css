@@ -12,7 +12,7 @@ nav{
     align-items: center;
     width:100%;
     border:1px solid rgba(0,0,0,0.04);
-    background-color: #cacaca;
+    background-color: #524b4b;
     position: fixed;
     left: 0;
     top: 0;
@@ -34,7 +34,7 @@ nav .menu li a{
     font-size: 18px;
     text-transform: uppercase;
     font-weight: 500;
-    color:#646363;
+    color:#fcf7f7;
     letter-spacing: 1px;
 }
 /* 끝 */
