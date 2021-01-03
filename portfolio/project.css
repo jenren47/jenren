@@ -1,0 +1,709 @@
+/* 메뉴바 */
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    border:1px solid rgba(0,0,0,0.04);
+    background-color: #cacaca;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+.logo img{
+    height: 65px;
+}
+nav .menu{
+    display: flex;
+}
+nav .menu li a{
+    font-family: 'Cafe24Oneprettynight';
+    height: 40px;
+    line-height: 43px;
+    margin: 0px;
+    padding: 0px 32px;
+    display: flex;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color:#646363;
+    letter-spacing: 1px;
+}
+/* 끝 */
+
+/* 1시작 */
+.pro{
+    top: 229px;
+    left: 830px;
+    width: 284px;
+    height: 108px;    
+    position:absolute;
+}
+.spahp1{
+    top: 466px;
+    left: 117px;
+    width: 835px;
+    height: 612px;    
+    position:absolute;
+}
+
+.see{
+    top: 586px;
+    left: 109px;
+    width: 835px;
+    height: 99px;    
+    position:absolute;  
+}
+
+.spah2{
+    top: 466px;
+    left: 117px;
+    width: 835px;
+    height: 612px;
+    position:absolute;
+}
+
+.text1{
+    top: 517px;
+    left: 483px;
+    width: 404px;
+    height: 51px;  
+    font-size: 30px;
+    font-family: 'NanumSquare';
+    position:absolute;  
+}
+
+.text2{
+    top: 516px;
+    left: 176px;
+    width: 183px;
+    height: 46px;
+    font-size: 30px;
+    font-family: 'NanumSquare';
+    position: absolute;  
+}
+
+.pic2{
+    top: 715px;
+    left: 143px;
+    width: 454px;
+    height: 340px;    
+    position:absolute;  
+}
+.text3{
+    letter-spacing :1px; ;
+    top: 741px;
+    left: 625px;
+    width: 274px;
+    height: 288px;    
+    line-height: 33px;
+    font-size: 18px;
+    font-family: 'NanumSquare';
+    position: absolute;  
+}
+/* 1finish */
+/* 2start */
+
+.spahp4{
+    top: 466px;
+    left: 973px;
+    width: 835px;
+    height: 612px;    
+    position:absolute;
+}
+
+.see4{
+    top: 585px;
+    left: 964px;
+    width: 835px;
+    height: 99px;    
+    position:absolute;  
+}
+
+.spah5{
+    top: 466px;
+    left: 973px;
+    width: 835px;
+    height: 612px;    
+    position:absolute;
+}
+
+.text4{
+    top: 519px;
+    left: 1327px;
+    width: 404px;
+    height: 51px;
+    font-size: 28px;
+    font-family: 'NanumSquare';
+    position:absolute;  
+}
+
+.text5{
+    top: 516px;
+    left: 1032px;
+    width: 183px;
+    height: 46px;    
+    font-size: 30px;
+    font-family: 'NanumSquare';
+    position: absolute;  
+}
+
+.pic4{
+    top: 715px;
+    left: 999px;
+    width: 454px;
+    height: 340px;     
+    position:absolute;  
+}
+.text6{
+    letter-spacing :1px; ;
+    top: 741px;
+    left: 1481px;
+    width: 274px;
+    height: 288px;
+    line-height: 33px;
+    font-size: 18px;
+    font-family: 'NanumSquare';
+    position: absolute;  
+}
+/* 2finish */
+
+/* 3시작 */
+
+.spahp6{
+    top: 1188px;
+    left: 116px;
+    width: 835px;
+    height: 612px;
+    
+    position:absolute;
+}
+
+.see7{
+    top: 1308px;
+    left: 107px;
+    width: 835px;
+    height: 99px;
+    position:absolute;  
+}
+
+.spah7{
+    top: 1188px;
+    left: 115px;
+    width: 835px;
+    height: 612px;
+    
+    position:absolute;
+}
+
+.text8{
+    top: 1237px;
+    left: 174px;
+    width: 183px;
+    height: 46px;    
+    font-size: 30px;
+    font-family: 'NanumSquare';
+    position:absolute;  
+}
+
+.text7{
+    top: 1238px;
+    left: 472px;
+    width: 404px;
+    height: 51px;
+    font-size: 30px;
+    font-family: 'NanumSquare';
+    position: absolute;  
+}
+
+.pic6{
+    top: 1437px;
+    left: 141px;
+    width: 454px;
+    height: 340px;
+    box-shadow: 0px 3px 6px #00000029;    
+    position:absolute;  
+}
+.text9{
+    letter-spacing :1px; ;
+    top: 1463px;
+    left: 623px;
+    width: 274px;
+    height: 288px;      
+    line-height: 33px;
+    font-size: 18px;
+    font-family: 'NanumSquare';
+    position: absolute;  
+}
+/* 3finish */
+/* 4시작 */
+
+.spahp10{
+    top: 1188px;
+    left: 971px;
+    width: 835px;
+    height: 612px;
+    position:absolute;
+}
+
+.see10{
+    top: 1308px;
+    left: 962px;
+    width: 835px;
+    height: 99px;
+    position:absolute;  
+}
+
+.spah11{
+    top: 1188px;
+    left: 971px;
+    width: 835px;
+    height: 612px;
+    position:absolute;
+}
+
+.text10{
+    top: 1238px;
+    left: 1328px;
+    width: 404px;
+    height: 51px;     
+    font-size: 30px;
+    font-family: 'NanumSquare';
+    position:absolute;  
+}
+
+.text11{
+    top: 1237px;
+    left: 1030px;
+    width: 183px;
+    height: 46px;    
+    font-size: 30px;
+    font-family: 'NanumSquare';
+    position: absolute;  
+}
+
+.pic10{
+    top: 1437px;
+    left: 997px;
+    width: 454px;
+    height: 340px;    
+    box-shadow: 0px 3px 6px #00000029;    
+    position:absolute;  
+}
+.text12{
+    letter-spacing :1px; ;
+    top: 1463px;
+    left: 1479px;
+    width: 274px;
+    height: 288px;          
+    line-height: 33px;
+    font-size: 18px;
+    font-family: 'NanumSquare';
+    position: absolute;  
+}
+/* 4finish */
+/* 5시작 */
+
+.spahp13{
+    top: 1910px;
+    left: 115px;
+    width: 835px;
+    height: 612px;    
+    position:absolute;
+}
+
+.see13{
+    top: 2031px;
+    left: 106px;
+    width: 166px;
+    height: 51px;  
+    position:absolute;  
+}
+
+.spah14{
+    top: 1910px;
+    left: 115px;
+    width: 835px;
+    height: 612px;    
+    position:absolute;
+}
+
+.text13{
+    top: 1963px;
+    left: 472px;
+    width: 404px;
+    height: 51px;    
+    font-size: 30px;
+    font-family: 'NanumSquare';
+    position:absolute;  
+}
+
+.text14{
+    top: 1959px;
+    left: 174px;
+    width: 183px;
+    height: 46px;    
+    font-size: 30px;
+    font-family: 'NanumSquare';
+    position: absolute;  
+}
+
+.pic13{
+    top: 2159px;
+    left: 141px;
+    width: 454px;
+    height: 340px;
+    box-shadow: 0px 3px 6px #00000029;    
+    position:absolute;  
+}
+.text15{
+    letter-spacing :1px; ;
+    top: 2185px;
+    left: 623px;
+    width: 274px;
+    height: 288px;        
+    line-height: 33px;
+    font-size: 18px;
+    font-family: 'NanumSquare';
+    position: absolute;  
+}
+/* 5finish */
+/* 6시작 */
+
+.spahp16{
+    top: 1910px;
+    left: 971px;
+    width: 835px;
+    height: 612px;  
+    position:absolute;
+}
+
+.see16{
+    top: 2029px;
+    left: 962px;
+    width: 166px;
+    height: 51px;
+    position:absolute;  
+}
+
+.spah17{
+    top: 1910px;
+    left: 971px;
+    width: 835px;
+    height: 612px;  
+    position:absolute;
+}
+
+.text16{
+    top: 1944px;
+    left: 1328px;
+    width: 404px;
+    height: 51px;
+    font-size: 28px;
+    font-family: 'NanumSquare';
+    position:absolute;  
+}
+
+.text17{
+    top: 1959px;
+    left: 1030px;
+    width: 183px;
+    height: 46px; 
+    font-size: 30px;
+    font-family: 'NanumSquare';
+    position: absolute;  
+}
+
+.pic18{
+    top: 2159px;
+    left: 997px;
+    width: 454px;
+    height: 340px;
+    box-shadow: 0px 3px 6px #00000029;    
+    position:absolute;  
+}
+.text18{
+    letter-spacing :1px; ;
+    top: 2185px;
+    left: 1479px;
+    width: 274px;
+    height: 288px;     
+    line-height: 33px;
+    font-size: 18px;
+    font-family: 'NanumSquare';
+    position: absolute;  
+}
+/* 6finish */
+/* 7시작 */
+
+.spahp19{
+    top: 2632px;
+    left: 115px;
+    width: 835px;
+    height: 612px;
+    position:absolute;
+}
+
+.see19{
+    top: 2752px;
+    left: 106px;
+    width: 166px;
+    height: 51px;
+    position:absolute;  
+}
+
+.spah20{
+    top: 2632px;
+    left: 115px;
+    width: 835px;
+    height: 612px;
+    position:absolute;
+}
+
+.text19{
+    top: 2683px;
+    left: 472px;
+    width: 404px;
+    height: 51px;    
+    font-size: 30px;
+    font-family: 'NanumSquare';
+    position:absolute;  
+}
+
+.text20{
+    top: 2681px;
+    left: 174px;
+    width: 183px;
+    height: 46px;
+    font-size: 30px;
+    font-family: 'NanumSquare';
+    position: absolute;  
+}
+
+.pic19{
+    top: 2881px;
+    left: 141px;
+    width: 454px;
+    height: 340px;
+    box-shadow: 0px 3px 6px #00000029;    
+    position:absolute;  
+}
+.text21{
+    letter-spacing :1px; ;
+    top: 2907px;
+    left: 623px;
+    width: 274px;
+    height: 288px;    
+    line-height: 33px;
+    font-size: 18px;
+    font-family: 'NanumSquare';
+    position: absolute;  
+}
+/* 7finish */
+
+/* 8시작 */
+
+.spahp22{
+    top: 2632px;
+    left: 971px;
+    width: 835px;
+    height: 612px;
+    position:absolute;
+}
+
+.see22{
+    top: 2751px;
+    left: 962px;
+    width: 166px;
+    height: 51px;    
+    position:absolute;  
+}
+
+.spah23{
+    top: 2632px;
+    left: 971px;
+    width: 835px;
+    height: 612px;
+    position:absolute;
+}
+
+.text22{
+    top: 2683px;
+    left: 1328px;
+    width: 404px;
+    height: 51px;    
+    font-size: 30px;
+    font-family: 'NanumSquare';
+    position:absolute;  
+}
+
+.text23{
+    top: 2681px;
+    left: 1030px;
+    width: 183px;
+    height: 46px;
+    font-size: 30px;
+    font-family: 'NanumSquare';
+    position: absolute;  
+}
+
+.pic22{
+    top: 2881px;
+    left: 997px;
+    width: 454px;
+    height: 340px;    
+    box-shadow: 0px 3px 6px #00000029;    
+    position:absolute;  
+}
+.text24{
+    letter-spacing :1px; ;
+    top: 2907px;
+    left: 1479px;
+    width: 274px;
+    height: 288px;     
+    line-height: 33px;
+    font-size: 18px;
+    font-family: 'NanumSquare';
+    position: absolute;  
+}
+/* 8finish */
+/* 9시작 */
+
+.spahp25{
+    top: 3354px;
+    left: 115px;
+    width: 835px;
+    height: 612px;    
+    position:absolute;
+}
+
+.see25{
+    top: 3473px;
+    left: 106px;
+    width: 166px;
+    height: 51px;
+    position:absolute;  
+}
+
+.spah26{
+    top: 3354px;
+    left: 115px;
+    width: 835px;
+    height: 612px;    
+    position:absolute;
+}
+
+.text25{
+    top: 3390px;
+    left: 479px;
+    width: 404px;
+    height: 51px;    
+    font-size: 30px;
+    font-family: 'NanumSquare';
+    position:absolute;  
+}
+
+.text26{
+    top: 3407px;
+    left: 174px;
+    width: 183px;
+    height: 46px;    
+    font-size: 30px;
+    font-family: 'NanumSquare';
+    position: absolute;  
+}
+
+.pic25{
+    top: 3603px;
+    left: 151px;
+    width: 454px;
+    height: 340px; 
+    box-shadow: 0px 3px 6px #00000029;    
+    position:absolute;  
+}
+.text27{
+    letter-spacing :1px; ;
+    top: 3629px;
+    left: 633px;
+    width: 274px;
+    height: 288px;      
+    line-height: 33px;
+    font-size: 18px;
+    font-family: 'NanumSquare';
+    position: absolute;  
+}
+/* 9finish */
+/* 10시작 */
+
+.spahp28{
+    top: 3354px;
+    left: 971px;
+    width: 835px;
+    height: 612px;
+    position:absolute;
+}
+
+.see28{
+    top: 3474px;
+    left: 962px;
+    width: 166px;
+    height: 51px;    
+    position:absolute;  
+}
+
+.spah29{
+    top: 3354px;
+    left: 971px;
+    width: 835px;
+    height: 612px;
+    position:absolute;
+}
+
+.text28{
+    top: 3390px;
+    left: 1328px;
+    width: 404px;
+    height: 51px;
+    font-size: 30px;
+    font-family: 'NanumSquare';
+    position:absolute;  
+}
+
+.text29{
+    top: 3406px;
+    left: 1030px;
+    width: 183px;
+    height: 46px;    
+    font-size: 30px;
+    font-family: 'NanumSquare';
+    position: absolute;  
+}
+
+.pic28{
+    top: 3603px;
+    left: 997px;
+    width: 454px;
+    height: 340px;
+    box-shadow: 0px 3px 6px #00000029;    
+    position:absolute;  
+}
+.text30{
+    letter-spacing :1px; ;
+    top: 3629px;
+    left: 1479px;
+    width: 274px;
+    height: 288px;     
+    line-height: 33px;
+    font-size: 18px;
+    font-family: 'NanumSquare';
+    position: absolute;  
+}
+/* 10finish */
