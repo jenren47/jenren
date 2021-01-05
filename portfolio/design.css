@@ -38,3 +38,81 @@ nav .menu li a{
     letter-spacing: 1px;
 }
 /* 끝 */
+.nnn{
+    top: 147px;
+    left: 534px;
+    width: 852px;
+    height: 156px;    
+    position:absolute;
+}
+.m{
+    top: 2583px;
+    left: 36px;
+    width: 380px;
+    height: 36px;   
+    position:absolute;
+}
+.back{
+    top: 75px;
+    left: 0px;
+    width: 1920px;
+    height: 1476px;
+    position:absolute;
+}
+/* 1*/
+
+.scroll{
+    top: 1550px;
+    left: 0px;
+    text-align: center;
+    width: 620px;
+    height: 1004px;
+    color: #292727;
+    border: 2px solid #000000;
+    line-height: 33px;
+    font-size: 20px;
+    font-family: 'NanumSquare';
+    letter-spacing :1px; 
+    padding:10px;
+     overflow:auto;
+     position:absolute;
+}
+/* 1*/
+/* 2*/
+
+.scroll2{
+    text-align: center;
+    top: 1550px;
+    left: 643px;
+    width: 620px;
+    height: 1004px;
+    color: #292727;
+    border: 2px solid #000000;
+    line-height: 33px;
+    font-size: 20px;
+    font-family: 'NanumSquare';
+    letter-spacing :1px; 
+    padding:10px;
+     overflow:auto;
+     position:absolute;
+}
+/* 2*/
+/* 3*/
+
+.scroll3{
+    text-align: center;
+    top: 1551px;
+    left: 1285px;
+    width: 611px;
+    height: 1004px;
+    color: #292727;
+    border: 2px solid #000000;
+    line-height: 33px;
+    font-size: 20px;
+    font-family: 'NanumSquare';
+    letter-spacing :1px; 
+    padding:10px;
+     overflow:auto;
+     position:absolute;
+}
+/* 3*/

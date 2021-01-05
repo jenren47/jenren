@@ -11,8 +11,8 @@
     body{
         
      width: 1920px;
-     height: 4080px;
-     background: #F4F4F4
+     height: 2650px;
+     background: #ececec;
     }
     @font-face {
     font-family: 'NanumSquare';
@@ -67,3 +67,65 @@
     </div>
 </nav>
     <!--끝------------------->
+      <!--시작------------------->  
+<div>
+   
+    <div class="m">
+        <img src="그룹 21.svg">
+    </div>
+    <div class="back">
+        <img src="패스 5.svg">
+    </div>
+
+   <img src="h2.jpg" id=mainImage alt="YsjImage" style="top: 416px; left: 579px;  position:absolute;">
+
+   <script>
+       var myImage=document.getElementById("mainImage");
+       var imageArray=["h2.jpg","h7.jpg","h3.jpg","h5.jpg","h4.jpg","h1.jpg","h6.jpg"];
+       var imageIndex=0;
+
+       function changeImage(){
+           myImage.setAttribute("src",imageArray[imageIndex]);
+           imageIndex++;
+           if(imageIndex>=imageArray.length){
+               imageIndex=0;
+           }
+       }
+       setInterval(changeImage,2000);
+
+   </script>
+
+<div class="nnn">
+    <img src="nn.svg">
+</div> 
+ 
+    <div>
+        <!--1시작------------------->  
+        <div class="scroll">
+        
+            <H2>길뭉치 스튜디오 영상 장면 제작</H2>  
+            <img src="q1.png"> <img src="q2.png"> <img src="q3.png"> <img src="q4.GIF" width="500"><img src="q5.GIF"width="500"><img src="q6.GIF"width="500"><img src="q7.GIF"width="500"><img src="q8.GIF"width="500"><img src="q9.GIF"width="500"><img src="q10.GIF"width="500">
+            
+
+          
+             </div>
+         <!--1끝------------------->  
+           <!--2시작------------------->  
+        <div class="scroll2">
+        
+            <H2>길뭉치 스튜디오 굿즈 제작</H2>      
+            <img src="ae꼬까 복사본.jpeg" width="500">               <img src="전체 복사본.jpeg" width="500"> <img src="꼬까 복사본.jpeg" width="500">         <img src="선구리 복사본.jpeg" width="500">
+             </div>
+         <!--2끝------------------->  
+           <!--3시작------------------->  
+        <div class="scroll3">
+        
+            <H2>교과 학습 결과물 디자인</H2>      
+            <img src="q11.png" width="500">             <img src="q12.png" width="500">             <img src="q13.png" width="500">     
+             </div>
+         <!--3끝------------------->  
+        </div>
+    </div>
+   </body>
+   </html>
+  
