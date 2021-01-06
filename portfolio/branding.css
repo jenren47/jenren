@@ -67,7 +67,7 @@ nav .menu li a{
     line-height: 33px;
     font-size: 20px;
     font-family: 'NanumSquare';
-    background-color: #ffffff;
+    background-color: #F7F7F7;
     letter-spacing :1px; 
     padding:10px;
      overflow:auto;
@@ -89,7 +89,7 @@ nav .menu li a{
     top: 808px;
     left: 287px;
     width: 649px;
-     background-color: #ffffff;
+    background-color: #F7F7F7;
     height: 786px;
     border: 2px solid #000000;
     line-height: 33px;
@@ -109,7 +109,7 @@ nav .menu li a{
     left: 287px;
     width: 672px;
     height: 943px;
-     background-color: #ffffff;
+     background-color: #F7F7F7;
     border: 2px solid #000000;
     line-height: 33px;
     font-size: 20px;
@@ -121,9 +121,11 @@ nav .menu li a{
 }
 /* 3*/
 .jj{
-    top: 1732px;
-    left: 1030px;
-    width: 532px;
-    height: 618px;    
+    top: 1720px;
+    left: 1029px;
+    width: 584px;
+    height: 689px;
+    background: transparent url('img/group10.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
     position:absolute;
 }
